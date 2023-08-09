@@ -1,0 +1,90 @@
+#github-actions{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#understanding-github-actions{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#creating-an-example-workflow{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#the-components-of-github-actions{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#activity-of-a-workflow-run{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#github-pages{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#understanding-github-pages{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#types-of-github-pages-sites{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#deploying-github-pages-artifacts{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#configuring-a-publishing-source-for-github-pages-site{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#deleting-a-github-pages-site{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#github-packages{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-github-packages{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#permissions-for-github-packages{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#publishing-a-package{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#installing-a-package{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#deleting-a-version-of-a-repository-scoped-package{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#deleting-a-version-of-a-user-scoped-package-on-github{
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

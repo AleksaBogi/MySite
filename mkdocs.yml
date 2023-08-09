@@ -1,0 +1,72 @@
+site_name: GitHub Documentation
+theme:
+   logo: https://www.analyticsvidhya.com/wp-content/uploads/2015/07/github_logo-1024x219.png
+   name: material
+   features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.instant
+      - navigation.footer 
+      - search.share
+      - content.code.copy
+   palette:
+      - scheme: default
+        toggle:
+          icon: material/brightness-7 
+          name: Switch to dark mode
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+site_name: !ENV [SITE_NAME, 'MySite']
+
+plugins:
+- search
+- tags:
+    enabled: !ENV
+- mkdocs-versioning:
+    version: 0.3.0
+
+
+
+repo_url: https://github.com/AleksaBogi/MySite
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/AleksaBogi
+    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/linkedin
+    - icon: fontawesome/brands/facebook
+
+copyright: |
+  &copy; 2023 <a target = _"blank" rel = "noopener">Aleksa Bogdanovic</a>
+
+
+
+extra_css:
+   - stylesheets/extra.css
+  
+
+
+
