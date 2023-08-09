@@ -43,8 +43,7 @@ plugins:
 - search
 - tags:
     enabled: !ENV
-- mkdocs-versioning:
-    version: 0.3.0
+
 
 
 
